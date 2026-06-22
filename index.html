@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Football Arena - 足球竞技场</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#1a1a2e;display:flex;justify-content:center;align-items:center;height:100vh;overflow:hidden;font-family:'Segoe UI',Arial,sans-serif}
+canvas{display:block;background:#0f3460;border:3px solid #16213e;border-radius:12px;box-shadow:0 0 40px rgba(83,52,131,0.5)}
+#ui{position:absolute;top:20px;left:50%;transform:translateX(-50%);color:#e94560;font-size:28px;font-weight:bold;text-shadow:0 0 10px rgba(233,69,96,0.5);letter-spacing:2px}
+</style>
+</head>
+<body>
+<div id="ui">⚽ FOOTBALL ARENA</div>
+<canvas id="game"></canvas>
+<script src="game.js"></script>
+</body>
+</html>
